@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="intro">
+    <h2>Introduction to Button Widget</h2>
+    <div class="defin">
+        Buttons are standard widgets in a GUI represent a clickable item in the application. They come with the default Tkinter library. We can configure the look of the button according to our requirements. <br /> <br />
+        To make a button do something, you associate a function or method with a button. This is called as <b>command binding</b> in tkinter. This function or method is called as the <b>callback function.</b> The callback function is called when a button is clicked. <br /> <br />
+
+        <i><u>Note:</u></i> A button can only display text in a single font. However, the text of a button can span multiple lines.
+
+    </div>
+</div>
+
+
+<br /><br />
+<!--<b class="info">Code to create a simple button.</b>-->
+<!--<br />-->
+<!--<br />-->
+<!--<div class="code">-->
+<!--<pre>-->
+
+<!--<span># Python code to create a simple button</span>-->
+
+<!--<span># importing necessary libraries</span>-->
+<!--from tkinter import Tk, Button-->
+
+<!--<span># Creating a Tk object</span>-->
+<!--root = Tk()-->
+
+<!--<span># specifying the width and height-->
+<!--# of the root window respectively</span>-->
+<!--root.geometry("300x300")-->
+
+<!--<span># creating a button object</span>-->
+<!--btn = Button(root, text = "Button")-->
+
+<!--<span># packing the button to the root window</span>-->
+<!--btn.pack()-->
+
+<!--<span># starting the application loop</span>-->
+<!--root.mainloop()-->
+
+<!--</pre>-->
+
+<!--</div>-->
+
+
+<!-- <br /><br /> -->
+<!--<b class="info">This will create the following output.</b>-->
+<!--<br /> <br />-->
+
+<!--<img src="https://media.geeksforgeeks.org/wp-content/uploads/20190306214501/Tkinter-button-without-tk-themed-widget.jpg"/>-->
+
+
+<!--&lt;!&ndash;<img src="/home/shuja/Pictures/tkinter_window.png"/>&ndash;&gt;-->
+
+
+<!--<br /><br />-->
+
+<b class="info">Customising the button.</b>
+
+<br /> <br />
+
+<div class="defin">
+    To customize a button in tkinter, we have a list of attributes some of which are listed below.
+</div>
+
+<br /><br />
+
+<div class="attributes">
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <b>Attribute</b>
+            </td>
+            <td>
+                <b>Description</b>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>activebackground</td>
+            <td>Button's background color when it gets clicked.</td>
+        </tr>
+        <tr>
+            <td>activeforeground</td>
+            <td>Button's foreground color when it gets clicked.</td>
+        </tr>
+
+        <tr>
+            <td>bg</td>
+            <td>Button's background color.</td>
+        </tr>
+
+        <tr>
+            <td>fg</td>
+            <td>Button's foreground/text color.</td>
+        </tr>
+
+        <tr>
+            <td>bd</td>
+            <td>Border-width of the button.</td>
+        </tr>
+
+        <tr>
+            <td>command</td>
+            <td>Set the callback function.</td>
+        </tr>
+
+        <tr>
+            <td>font</td>
+            <td>Font of the text to be used for button's label.</td>
+        </tr>
+
+        <tr>
+            <td>height</td>
+            <td>Set the height of the button.</td>
+        </tr>
+
+        <tr>
+            <td>highlightcolor</td>
+            <td>Focus highlight color when button has focus.</td>
+        </tr>
+
+        <tr>
+            <td>image</td>
+            <td>Image to be dispalayed on button instead of text.</td>
+        </tr>
+
+        <tr>
+            <td>justify</td>
+            <td>Justify/align the text. It's values are
+                <i>left-justified</i>, <i>right-justified</i>, <i>center.</i></td>
+        </tr>
+
+        <tr>
+            <td>padx</td>
+            <td>The padding area between the button and it's sides on the x-axis.</td>
+        </tr>
+
+        <tr>
+            <td>pady</td>
+            <td>The padding area between the button and its sides on the y-axix.</td>
+        </tr>
+
+        <tr>
+            <td>relief</td>
+            <td>Set border type. Some of the values are <i>GROOVE</i>, <i>RAISED</i>, <i>RIDGE</i>, <i>SUNKEN</i><i>FLAT</i></td>
+        </tr>
+
+        <tr>
+            <td>state</td>
+            <td>
+                Set this option to <i>DISABLED</i> to make it responsive or to <i>NORMAL</i> to make it responsive.
+            </td>
+        </tr>
+
+        <tr>
+            <td>underline</td>
+            <td>Underline the character on that index. If it is set to -1, no character will be underlined.</td>
+        </tr>
+
+        <tr>
+            <td>width</td>
+            <td>Width of button in characters( if displaying text) or in pixeld (if displaying an image).</td>
+        </tr>
+
+        <tr>
+            <td>wraplength</td>
+            <td>Specify maximum line length in pixels for word-wrapping.</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<br /><br />
+
+
+<!--<b class="info">Creating a custom button.</b>-->
+
+<!--<br /><br />-->
+
+<!--<div class="code">-->
+<!--<pre>-->
+<!--<span># Creating a custom tkinter button.</span>-->
+
+<!--from tkinter improt Tk, Button-->
+
+<!--root = Tk()-->
+
+<!--root.geometry('300x300')-->
+
+<!--btn = Button(-->
+<!--    root, text='Custom Button',-->
+<!--    fg='red', bg='black', relief=SUNKEN-->
+<!--    )-->
+
+<!--btn.pack()-->
+
+<!--root.mainloop()-->
+
+<!--</pre>-->
+
+<!--</div>-->
+<!--<br /> <br />-->
+<!--<img src="someting" alt="IMAGE">-->
+
+
+<br />
+<h2 style="color:red">Add a separate window for widgets</h2>
+<br />
+
+<!--<br /><br />-->
+<!--<b class="info">Using the callback function.</b>-->
+<!--<br /> <br />-->
+
+<!--<div class="code">-->
+<!--<pre>-->
+<!--<span># How to create and use a callback function</span>-->
+
+<!--from tkinter import Tk, Button-->
+
+<!--root = Tk()-->
+
+<!--root.geometry('300x300')-->
+
+<!--def printToConsole():-->
+<!--    print('Hello, Tkinter!')-->
+
+<!--btn = Button(-->
+<!--    root, text='Click Me!',-->
+<!--    command = printToConsole-->
+<!--    )-->
+
+<!--btn.pack()-->
+
+<!--root.mainloop()-->
+
+<!--</pre>-->
+<!--</div>-->
+<!--<br /> <br />-->
+<!--<img src="someting" alt="IMAGE">-->
+
+<!--<br /> <br />-->
+
+<!--<b class="info">-->
+<!--    You can play around with other attributes to know how they work.-->
+<!--</b>-->
+
+</body>
+</html>

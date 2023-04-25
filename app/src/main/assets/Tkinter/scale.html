@@ -1,0 +1,136 @@
+<table class="table table-bordered">
+<tbody><tr>
+<th style="text-align:center;width:10%">Sr.No.</th>
+<th style="text-align:center;">Option &amp; Description</th>
+</tr>
+<tr>
+<td class="ts">1</td>
+<td><p><b>activebackground</b></p>
+<p>The background color when the mouse is over the scale.</p></td>
+</tr>
+<tr>
+<td class="ts">2</td>
+<td><p><b>bg</b></p>
+<p>The background color of the parts of the widget that are outside the trough.</p></td>
+</tr>
+<tr>
+<td class="ts">3</td>
+<td><p><b>bd</b></p>
+<p>Width of the 3-d border around the trough and slider. Default is 2 pixels. </p></td>
+</tr>
+<tr>
+<td class="ts">4</td>
+<td><p><b>command</b></p>
+<p>A procedure to be called every time the slider is moved. This procedure will be passed one argument, the new scale value. If the slider is moved rapidly, you may not get a callback for every possible position, but you'll certainly get a callback when it settles.</p></td>
+</tr>
+<tr>
+<td class="ts">5</td>
+<td><p><b>cursor</b></p>
+<p>If you set this option to a cursor name (<i>arrow, dot etc.</i>), the mouse cursor will change to that pattern when it is over the scale.</p></td>
+</tr>
+<tr>
+<td class="ts">6</td>
+<td><p><b>digits</b></p>
+<p>The way your program reads the current value shown in a scale widget is through a control variable. The control variable for a scale can be an IntVar, a DoubleVar (float), or a StringVar. If it is a string variable, the digits option controls how many digits to use when the numeric scale value is converted to a string.</p></td>
+</tr>
+<tr>
+<td class="ts">7</td>
+<td><p><b>font</b></p>
+<p>The font used for the label and annotations.</p></td>
+</tr>
+<tr>
+<td class="ts">8</td>
+<td><p><b>fg </b></p>
+<p>The color of the text used for the label and annotations.</p></td>
+</tr>
+<tr>
+<td class="ts">9</td>
+<td><p><b>from_</b></p>
+<p>A float or integer value that defines one end of the scale's range. </p></td>
+</tr>
+<tr>
+<td class="ts">10</td>
+<td><p><b>highlightbackground</b></p>
+<p>The color of the focus highlight when the scale does not have focus.</p></td>
+</tr>
+<tr>
+<td class="ts">11</td>
+<td><p><b>highlightcolor</b></p>
+<p>The color of the focus highlight when the scale has the focus.</p></td>
+</tr>
+<tr>
+<td class="ts">12</td>
+<td><p><b>label</b></p>
+<p>You can display a label within the scale widget by setting this option to the label's text. The label appears in the top left corner if the scale is horizontal, or the top right corner if vertical. The default is no label.</p></td>
+</tr>
+<tr>
+<td class="ts">13</td>
+<td><p><b>length</b></p>
+<p>The length of the scale widget. This is the x dimension if the scale is horizontal, or the y dimension if vertical. The default is 100 pixels.</p></td>
+</tr>
+<tr>
+<td class="ts">14</td>
+<td><p><b>orient</b></p>
+<p>Set orient=HORIZONTAL if you want the scale to run along the x dimension, or orient=VERTICAL to run parallel to the y-axis. Default is horizontal.</p></td>
+</tr>
+<tr>
+<td class="ts">15</td>
+<td><p><b>relief</b></p>
+<p>Specifies the appearance of a decorative border around the label. The default is FLAT; for other values.</p></td>
+</tr>
+<tr>
+<td class="ts">16</td>
+<td><p><b>repeatdelay</b></p>
+<p>This option controls how long button 1 has to be held down in the trough before the slider starts moving in that direction repeatedly. Default is repeatdelay=300, and the units are milliseconds.</p></td>
+</tr>
+<tr>
+<td class="ts">17</td>
+<td><p><b>resolution</b></p>
+<p>Normally, the user will only be able to change the scale in whole units. Set this option to some other value to change the smallest increment of the scale's value. For example, if from_=-1.0 and to=1.0, and you set resolution=0.5, the scale will have 5 possible values: -1.0, -0.5, 0.0, +0.5, and +1.0. </p></td>
+</tr>
+<tr>
+<td class="ts">18</td>
+<td><p><b>showvalue</b></p>
+<p>Normally, the current value of the scale is displayed in text form by the slider (above it for horizontal scales, to the left for vertical scales). Set this option to 0 to suppress that label.</p></td>
+</tr>
+<tr>
+<td class="ts">19</td>
+<td><p><b>sliderlength</b></p>
+<p>Normally the slider is 30 pixels along the length of the scale. You can change that length by setting the sliderlength option to your desired length.</p></td>
+</tr>
+<tr>
+<td class="ts">20</td>
+<td><p><b>state</b></p>
+<p>Normally, scale widgets respond to mouse events, and when they have the focus, also keyboard events. Set state=DISABLED to make the widget unresponsive.</p></td>
+</tr>
+<tr>
+<td class="ts">21</td>
+<td><p><b>takefocus</b></p>
+<p>Normally, the focus will cycle through scale widgets. Set this option to 0 if you don't want this behavior. </p></td>
+</tr>
+<tr>
+<td class="ts">22</td>
+<td><p><b>tickinterval</b></p>
+<p>To display periodic scale values, set this option to a number, and ticks will be displayed on multiples of that value. For example, if from_=0.0, to=1.0, and tickinterval=0.25, labels will be displayed along the scale at values 0.0, 0.25, 0.50, 0.75, and 1.00. These labels appear below the scale if horizontal, to its left if vertical. Default is 0, which suppresses display of ticks.</p></td>
+</tr>
+<tr>
+<td class="ts">23</td>
+<td><p><b>to</b></p>
+<p>A float or integer value that defines one end of the scale's range; the other end is defined by the from_ option, discussed above. The to value can be either greater than or less than the from_ value. For vertical scales, the to value defines the bottom of the scale; for horizontal scales, the right end.</p></td>
+</tr>
+<tr>
+<td class="ts">24</td>
+<td><p><b>troughcolor</b></p>
+<p>The color of the trough.</p></td>
+</tr>
+<tr>
+<td class="ts">25</td>
+<td><p><b>variable</b></p>
+<p>The control variable for this scale, if any. Control variables may be from class IntVar, DoubleVar (float), or StringVar. In the latter case, the numerical value will be converted to a string. </p></td>
+</tr>
+<tr>
+<td class="ts">26</td>
+<td><p><b>width</b></p>
+<p>The width of the trough part of the widget. This is the x dimension for vertical scales and the y dimension if the scale has orient=HORIZONTAL. Default is 15 pixels. </p></td>
+</tr>
+</tbody></table>

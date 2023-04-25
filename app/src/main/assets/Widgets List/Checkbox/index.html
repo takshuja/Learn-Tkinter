@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="intro">
+    <h2>Introduction to checkbutton Widget</h2>
+    <div class="defin">
+        A checkbutton is a graphical widget that permits a user to select one or more options from a limited number of choices. A caption describing the meaning of the checkbutton is usually shown adjacent to the checkbutton. A checkbutton has two states i.e: on and off. The state of checkbutton can be changed by clicking the mouse on the box, by clicking the caption of the checkbutton or by pressing the space-bar.
+    </div>
+</div>
+
+
+<br />
+<b class="info">Tkinter checkbutton attributes.</b>
+<br />
+<div class="defin">
+    Here is the list of commonly used checkbutton options.
+</div>
+
+
+
+<br /><br />
+
+<div class="attributes">
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <b>Attribute</b>
+            </td>
+            <td>
+                <b>Description</b>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>activebackground</td>
+            <td>Background color of checkbutton when it is under the mouse pointer.</td>
+        </tr>
+        <tr>
+            <td>activeforeground</td>
+            <td>Foreground color when it is under the mouse pointer.</td>
+        </tr>
+
+        <tr>
+            <td>bg</td>
+            <td>Background color of the checkbutton's label.</td>
+        </tr>
+
+        <tr>
+            <td>fg</td>
+            <td>Text color of the checkbutton's label.</td>
+        </tr>
+
+        <tr>
+            <td>bd</td>
+            <td>Border-width of the checkbutton. By default it is 2 pixels.</td>
+        </tr>
+
+        <tr>
+            <td>command</td>
+            <td>Call the callback function when the user changes the state of checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>cursor</td>
+            <td>Set the cursor type of the mouse pointer when it is over the checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>disableforeground</td>
+            <td>Set the text color of a disabled checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>font</td>
+            <td>Font of the text to be used for the label of checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>height</td>
+            <td>Set the height of the checkbutton(in terms of number of lines). The default value is 1.</td>
+        </tr>
+
+        <tr>
+            <td>highlightcolor</td>
+            <td>Focus highlight color when checkbutton is under focus.</td>
+        </tr>
+
+        <tr>
+            <td>image</td>
+            <td>Image used to represent the checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>justify</td>
+            <td>Justify/align the text. It's values are
+                <i>left-justified</i>, <i>right-justified</i>, <i>center.</i></td>
+        </tr>
+
+        <tr>
+            <td>offvalue</td>
+            <td>Set the value of checkbutton when it is off (unchecked). By default it is 0. It's values can be 0 or 1</td>
+        </tr>
+
+        <tr>
+            <td>onvalue</td>
+            <td>Set the value of checkbutton when it is on (checked). By default it is 1. It's values can be 0 or 1</td>
+        </tr>
+
+
+        <tr>
+            <td>padx</td>
+            <td>The vertical padding of the checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>pady</td>
+            <td>The horizontal padding of the checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>relief</td>
+            <td>Set border type. Some of the values are <i>GROOVE</i>, <i>RAISED</i>, <i>RIDGE</i>, <i>SUNKEN</i><i>FLAT</i></td>
+        </tr>
+
+        <tr>
+            <td>selectcolor</td>
+            <td>The color of the checkbutton when it is set.</td>
+        </tr>
+
+        <tr>
+            <td>selectimage</td>
+            <td>The image is shown on the checkbutton when it is set.</td>
+        </tr>
+
+
+        <tr>
+            <td>state</td>
+            <td>
+                Set this option to <i>DISABLED</i> to make it responsive or to <i>NORMAL</i> to make it responsive.
+            </td>
+        </tr>
+
+        <tr>
+            <td>underline</td>
+            <td>Underline the character on that index. If it is set to -1, no character will be underlined.</td>
+        </tr>
+
+        <tr>
+            <td>variable</td>
+            <td>This option represents the associated variable that tracks the state of the checkbutton.</td>
+        </tr>
+
+
+        <tr>
+            <td>width</td>
+            <td>Width of button in characters( if displaying text) or in pixels (if displaying an image).</td>
+        </tr>
+
+        <tr>
+            <td>wraplength</td>
+            <td>Specify maximum line length in pixels for word-wrapping.</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<br /><br />
+<li><b class="info">Tkinter checkbutton methods.</b></li>
+<br />
+<div class="defin">
+    The commonly used methods for this widget are listed below.
+</div>
+<br /><br />
+<div class="attributes">
+
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <b>Method</b>
+            </td>
+            <td>
+                <b>Description</b>
+            </td>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>deselect</td>
+            <td>Clear checkbutton selection.</td>
+        </tr>
+        <tr>
+            <td>flash</td>
+            <td>Flash the checkbutton between it's active and normal colors.</td>
+        </tr>
+
+        <tr>
+            <td>invoke</td>
+            <td>Get the same action as when user clicks the checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>select</td>
+            <td>Select the checkbutton.</td>
+        </tr>
+
+        <tr>
+            <td>toggle</td>
+            <td>Invert the state of checkbutton.</td>
+        </tr>
+
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<br /><br />
+<br /><br />
+</body>
+</html>

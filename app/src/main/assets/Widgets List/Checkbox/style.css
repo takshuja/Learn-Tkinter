@@ -1,0 +1,41 @@
+body{
+
+    background-color: #DDD;
+    color: #1B1B1B;
+
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+
+.intro h2{
+    display: flex;
+    justify-content: center;
+    padding: 0 7px;
+}
+
+
+.defin {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 1.6;
+    padding: 0 7px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+table, td {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
+    border: 2px solid #1B1B1B;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 2px 7px;
+}
+

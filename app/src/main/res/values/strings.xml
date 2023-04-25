@@ -1,0 +1,7 @@
+<resources>
+<!--    <string name="app_name">Compose Fundamentals</string>-->
+    <string name="app_name">Learn Tkinter GUI</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="title_activity_widget_list">WidgetListActivity</string>
+    <string name="title_activity_examples">Examples</string>
+</resources>
